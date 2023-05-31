@@ -90,7 +90,9 @@ display:flex;
     display: flex;
     border-style: none none solid none;
     color: white;
-
+    height: 75px;
+    align-items: center;
+    padding-left: 20px;
 }
 .img_usuario{
     width: 35px;
