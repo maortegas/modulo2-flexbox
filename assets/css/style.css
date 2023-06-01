@@ -12,7 +12,7 @@ display:flex;
 
 }
 .principal{
-    background-color: #E8EBE4;
+    background-color:#E8EBE4;
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -28,17 +28,17 @@ display:flex;
 }
 .contacto{
     flex: 0 0 15rem;
-    background-color: #9ad250;
+    background-color: #FFF;
 }
 .menu{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-style: none none solid none;
     border-color: #E8EBE4;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 60px;
+    align-items: center;
+    color: #828485;
     
 }
 .foto{
@@ -73,13 +73,12 @@ display:flex;
     display: flex;
     justify-content: center;
     border-style: none none solid none ;
-    color: white;
+    color: #E8EBE4;
     height: 100px ;
     align-items: center;
 }
 .nuevo_chat{
     background-color: #a491d2;
-    
     height: 40px;
     width: 80%;
     text-align: center;
@@ -89,7 +88,7 @@ display:flex;
 .user{
     display: flex;
     border-style: none none solid none;
-    color: white;
+    color: #E8EBE4;;
     height: 75px;
     align-items: center;
     padding-left: 20px;
